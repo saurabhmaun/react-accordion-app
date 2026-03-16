@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.left {
+  width: 30%;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.right {
+  width: 70%;
+  padding: 20px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+  padding: 12px;
+  background: #f4f4f4;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+}
+
+.accordion-title:hover {
+  background: #eaeaea;
+}
+
+.accordion-content {
+  padding: 10px;
+  background: #e5e5e5;
+  text-align: left;
+}
